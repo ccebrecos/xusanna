@@ -7,6 +7,7 @@ import Roureda from './components/3_roureda'
 import Schedule from './components/4_schedule'
 import Detail from './components/6_detail'
 import Footer from './components/7_footer'
+import mainImage from './assets/img/header.png'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <Navbar />
         <Header />
         <Banner />
-        <div> FOTO GRAN</div>
+        <img src={mainImage} alt="anna i xus mirant-se amb amor" />
         <Roureda />
         <Schedule />
         <Confirm />
