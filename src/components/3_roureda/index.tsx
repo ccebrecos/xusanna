@@ -1,7 +1,6 @@
 import mainImage from '../../assets/img/roureda.png'
 
 export default function Roureda() {
-
     return  (
       <div className="bg-turquesa text-blau-fort instrument-serif-regular flex flex-row space-around h-[500px] items-center">
         <div className="w-1/2 flex justify-center">
