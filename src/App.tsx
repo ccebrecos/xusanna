@@ -7,7 +7,9 @@ import Roureda from './components/3_roureda'
 import Schedule from './components/4_schedule'
 import Detail from './components/6_detail'
 import Footer from './components/7_footer'
+
 import mainImage from './assets/img/header.png'
+import Signature from './components/8_Signature'
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <Confirm />
         <Detail />
         <Footer />
+        <Signature />
       </>
   )
 }
