@@ -1,5 +1,24 @@
 import busIcon from '../../assets/icons/bus.svg'
 
+import schedule_1 from '../../assets/img/schedule_1.png'
+import schedule_2 from '../../assets/img/schedule_2.png'
+import schedule_3 from '../../assets/img/schedule_3.png'
+import schedule_4 from '../../assets/img/schedule_4.png'
+
+
+function scheduleItem(hora: string, cosa: string, img?: string) {
+  return (
+    <div className='flex flex-col text-blau-fort poppins-regular'>
+      <div 
+        className="w-60 h-60 bg-white rounded-full mb-9 bg-cover bg-center"
+        style={{ backgroundImage: img ? `url(${img})` : 'none' }}
+      ></div>
+      <p className='text-3xl font-semibold'>{hora}h</p>
+      <p className='text-2xl'>{cosa}</p>
+    </div>
+  )
+}
+
 function Bus() {
   return (
     <div className="bg-white text-left text-blau-fort poppins-regular flex flex-row mx-20 my-5">
@@ -13,13 +32,13 @@ function Bus() {
 export default function Schedule() {
   return (
     <>
-    <div className="bg-beige h-[500px] flex justify-evenly items-center">
-      <div className="w-60 h-60 bg-white rounded-full"></div>
-      <div className="w-60 h-60 bg-white rounded-full"></div>
-      <div className="w-60 h-60 bg-white rounded-full"></div>
-      <div className="w-60 h-60 bg-white rounded-full"></div>
-    </div>
-    <Bus />
+      <div className="bg-beige flex justify-evenly items-center py-16">
+        {scheduleItem("18:00", "Cerimònia", schedule_1)}
+        {scheduleItem("19:00", "Recepció i aperitiu", schedule_2)}
+        {scheduleItem("21:00", "Sopar", schedule_3)}
+        {scheduleItem("23:00", "Ball i festa", schedule_4)}
+      </div>
+      <Bus />
     </>
   )
 }

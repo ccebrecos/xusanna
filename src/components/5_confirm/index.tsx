@@ -2,9 +2,13 @@ import zucainaImg from '../../assets/img/zucaina.png';
 
 function Banner() {
   return (
-    <div className="h-20 bg-turquesa text-blau-fort">
-      <div className="flex flex-row instrument-serif-regular justify-between mx-4 md:mx-16 items-center h-full">
-        <div className="text-6xl italic">Confirma la teva assitència abans del 09 · 03 · 25</div>
+    <div className="h-20 bg-turquesa text-blau-fort banner-container">
+      <div className="instrument-serif-regular justify-between mx-4 md:mx-16  h-full flex items-center">
+        <div className="moving-text flex flex-row space-x-4 ">
+          <p className="text-6xl italic ">Confirma la teva assitència abans del 09 · 03 · 25</p>
+          <p className="text-6xl italic ">Confirma la teva assitència abans del 09 · 03 · 25</p>
+          <p className="text-6xl italic ">Confirma la teva assitència abans del 09 · 03 · 25</p>
+        </div>
       </div>
     </div>
   );
@@ -14,7 +18,7 @@ export default function Confirm() {
   return (
     <>
       <div 
-        className="bg-blau-fort text-beige instrument-serif-regular flex flex-col space-evenly items-center py-20"
+        className="bg-blau-fort text-beige instrument-serif-regular flex flex-col space-evenly items-center py-20 h-[530px]"
         style={{
           backgroundImage: `url(${zucainaImg})`,
           backgroundSize: 'cover',
