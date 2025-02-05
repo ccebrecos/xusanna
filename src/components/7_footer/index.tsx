@@ -1,4 +1,4 @@
-import heartIcon from '../../assets/icons/heart.svg'
+import heartIcon from '../../assets/icons/heart.svg';
 
 export default function Footer() {
   return (
@@ -6,8 +6,8 @@ export default function Footer() {
       <img src={heartIcon} alt="Heart icon" className="w-6 mr-2 center mb-4" />
       <p>Gràcies per compartir aquest dia amb nosaltres.</p>
       <p>Cada moment serà més especial perquè tu hi seràs.</p>
-      <br/>
+      <br />
       <p>Us estimem, Anna i Xus.</p>
     </div>
-  )
+  );
 }
