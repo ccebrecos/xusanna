@@ -17,7 +17,7 @@ export default function Detail() {
     <div className="bg-beige text-blau-fort flex md:flex-row flex-col space-evenly items-center py-16">
       <div className="md:w-1/2 flex flex-col justify-center gap-9 text-left md:px-32 px-10">
         <p className="text-6xl instrument-serif-regular ">
-          Un petit detall per al nostre futur junts.
+          Un petit detall per al nostre futur junts{' '}
         </p>
         <p className="text-left text-base poppins-regular">
           La vostra presència en el nostre casament és el millor regal que ens

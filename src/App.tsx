@@ -17,7 +17,11 @@ function App() {
       <Navbar />
       <Header />
       <Banner />
-      <img src={mainImage} alt="anna i xus mirant-se amb amor" />
+      <img
+        src={mainImage}
+        alt="anna i xus mirant-se amb amor"
+        className="w-full h-auto object-cover min-h-80 "
+      />
       <Roureda />
       <Schedule />
       <Confirm />

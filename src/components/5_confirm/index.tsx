@@ -35,9 +35,12 @@ export default function Confirm() {
         <div className="center md:text-8xl text-6xl md:mb-9 mb-5">
           Ens acompanyes?
         </div>
-        <div className="center text-base poppins-regular">
-          <p>Confirma la teva assistència abans del 09 · 03 · 25.</p>
-          <p>Ens farà molt feliços saber que vindràs!</p>
+        <div className="center text-base poppins-regular mx-10">
+          <p>
+            Confirma la teva assistència abans del{' '}
+            <span className="text-nowrap">09 · 03 · 25.</span> Ens farà molt
+            feliços saber que vindràs!
+          </p>
         </div>
         <a
           href="https://forms.gle/ujKPfq3DndksVk9K8"
